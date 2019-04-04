@@ -1,0 +1,239 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background3"
+    tools:context="com.queue.queuing.LoginActivity">
+
+    <!-- Login progress -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="512dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="50dp"
+
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/Username_Edt"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:background="#00000000"
+            android:gravity="center"
+            android:hint="@string/prompt_email"
+            android:textColor="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:background="#FFFFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Username_Edt" />
+
+        <EditText
+            android:id="@+id/Password_Edt"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:background="#00000000"
+            android:gravity="center"
+            android:hint="@string/prompt_password"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:background="#FFFFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Password_Edt" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup_pinter"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2">
+
+            <RadioButton
+                android:id="@+id/radio_LocalPinter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:buttonTint="#ffffff"
+                android:onClick="onRadioButtonClickednetworkprinter"
+                android:text="@string/localprinter"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/radio_NetworkPinter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:buttonTint="#ffffff"
+                android:onClick="onRadioButtonClickednetworkprinter"
+                android:text="@string/networkprinter"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/PrinterIP_Edt"
+            android:layout_width="200dp"
+            android:layout_height="43dp"
+            android:layout_below="@id/Password_Edt"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:background="#00000000"
+            android:digits="0123456789."
+            android:gravity="center"
+            android:hint="@string/prompt_printer_ip"
+            android:inputType="numberDecimal"
+            android:textColor="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogroup_pinter" />
+
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="143dp"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="#00000000"
+            android:text="测试"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogroup_pinter" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:background="#FFFFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PrinterIP_Edt" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup_papersize"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view4">
+
+            <RadioButton
+                android:id="@+id/radio_papersize58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#ffffff"
+                android:onClick="onRadioButtonClickedpapersize"
+                android:text="@string/papersize58"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/radio_papersize80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="43dp"
+                android:buttonTint="#ffffff"
+                android:onClick="onRadioButtonClickedpapersize"
+                android:text="@string/papersize80"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:text="登录"
+            android:textColor="#303F9F"
+            android:textSize="20dp"
+            android:background="@drawable/btn_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogroup_papersize"
+            />
+
+        <CheckBox
+            android:id="@+id/cb_remPassword"
+            android:layout_width="143dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="272dp"
+            android:text="记住密码"
+            android:textColor="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_login"
+            android:buttonTint="#ffffff"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+

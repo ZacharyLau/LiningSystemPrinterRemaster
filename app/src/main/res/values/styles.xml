@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <!-- 按钮字体大小、颜色 -->
+    <style name="TextStyle01" >
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/whitesmoke</item>
+    </style>
+    <style name="TextStyle02" >
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/whitesmoke</item>
+    </style>
+    <style name="TextStyle03" >
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/whitesmoke</item>
+    </style>
+    <style name="TextStyle04" >
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/whitesmoke</item>
+    </style>
+
+    <style name="TextStyle001" >
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="TextStyle002" >
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="TextStyle0002" >
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="TextStyle003" >
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+</resources>

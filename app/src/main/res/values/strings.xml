@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name">Mr.Moo</string>
+    <string name="none_paired">没有匹配的设备</string>
+    <string name="scanning">正在搜索设备...</string>
+    <string name="select_device">选择设备链接</string>
+    <string name="none_found">未发现设备</string>
+    <string name="btnSearch">连接蓝牙打印机</string>
+    <string name="btnSend">打印</string>
+    <string name="btn_test">打印测试案例</string>
+    <string name="btnClose">关闭</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="menu_settings">设置</string>
+    <string name="strLang">ch</string>
+    <string name="button_scan">搜索设备</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="empty">Input is empty</string>
+    <string name="btn_prtcode">Print 1D/2D Codebar</string>
+    <string name="btn_picture">Print Picture</string>
+    <string name="btn_scqr">Generate QR Code Print</string>
+    <string name="btn_dyca">Turn on the camera</string>
+    <string name="msg_error">Input errors, please check!</string>
+    <string name="empty1">Input is empty, in the text box to enter the content to be converted &#8230;</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">请输入用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="prompt_printer_ip">打印机IP</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">用户名不存在</string>
+    <string name="error_invalid_password">密码过短</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">用户名不能为空</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="localprinter">本地打印机</string>
+    <string name="networkprinter">无线打印机</string>
+    <string name="papersize58">58mm</string>
+    <string name="papersize80">80mm</string>
+    <string name="title_activity_main_local">MainLocalActivity</string>
+
+    <string name="printsuccess">Print Success</string>
+    <string name="printfailed">Print Failed</string>
+
+
+
+
+
+
+
+
+    <string name="terminal">终端</string>
+
+
+    <string name="Add_Path">添加路径</string>
+    <!-- CheckBox 打印位图功能选项-->
+    <string name="Open">开启下载</string>
+    <string name="Close">关闭下载</string>
+    <string name="Extend">扩展</string>
+    <string name="Simplify">简化</string>
+    <string name="Simplify2">简化2</string>
+
+    <string name="Rotate">旋转</string>
+    <string name="Normal">正常</string>
+    <string name="Rotation_90degrees">90度旋转</string>
+
+    <string name="Align_Mode">对齐</string>
+    <string name="Left">靠左</string>
+    <string name="Center">居中</string>
+    <string name="Right">靠右</string>
+
+    <string name="UnderLine">下划线</string>
+    <string name="Underline_1">下划线1</string>
+    <string name="Underline_2">下划线2</string>
+    <string name="Cancel">取消</string>
+
+    <string name="Cutter">切刀</string>
+    <string name="Total">全切</string>
+    <string name="Half">半切</string>
+
+    <string name="System">系统</string>
+    <string name="ExitSystem">退出</string>
+    <string name="VersionSystem">版本</string>
+    <string name="OpenBlackMark">开启黑标</string>
+    <string name="CloseBlackMark">关闭黑标</string>
+    <string name="ContinuePrint">连续打印</string>
+    <string name="DeviceSelect">设备选择</string>
+    <string name="SpecilText">￥字符页设置</string>
+
+    <string name="Select_Device">Select Device</string>
+    <string name="dev0">default</string>
+    <string name="dev1">device1</string>
+    <string name="dev2">device2</string>
+
+    <string name="underline_nothing">无</string>
+    <string name="underline_first">下划线1</string>
+    <string name="underline_sencond">下划线2</string>
+    <string name="D347QR">D347QrCode</string>
+    <string name="D245QR">D245QrCode</string>
+    <string name="T500IIQr">T500IIQrCode</string>
+
+
+    <string name="bmp_1">1</string>
+    <string name="bmp_2">2</string>
+    <string name="bmp_3">3</string>
+    <string name="bmp_4">4</string>
+    <string name="bmp_5">5</string>
+    <string name="bmp_6">6</string>
+
+    <string name="Htseat">识读字符</string>
+    <string name="No_print">不打印</string>
+    <string name="Above">上方</string>
+    <string name="Below">下方</string>
+    <string name="All">上下方</string>
+
+    <string name="Linespace">行间距</string>
+    <string name="line_30">30</string>
+    <string name="line_40">40</string>
+    <string name="line_50">50</string>
+    <string name="line_60">60</string>
+    <string name="line_70">70</string>
+
+    <string name="InputPrint_btn">输入打印</string>
+    <string name="Feedline_num_et">请输入换行数，默认4行</string>
+    <string name="PrintSeflPage_btn">自检页</string>
+    <string name="PrinterInfo_btn">打印机信息</string>
+    <string name="PrintTest_btn">文本打印</string>
+    <string name="PrintTicket_btn">小票打印</string>
+    <!-- <string name="PrintTicket_btn">交易凭条</string> -->
+    <string name="Check_status_btn">查询状态</string>
+    <string name="Clear_btn">清除</string>
+    <string name="AddPath_btn">增加</string>
+    <string name="ClearPath_btn">清除</string>
+    <string name="Load_Bmp_btn">下载位图</string>
+    <string name="Print_Bmp_btn">打印位图</string>
+    <string name="Print_Img_btn">打印图片</string>
+    <string name="Print_Conver_Img_btn">打印转换图片</string>
+    <string name="Set_ADValue_btn">设置AD值</string>
+    <string name="Set_BlackMarkOffset_btn">黑标偏移量</string>
+    <string name="Open_electronic_lock_btn">开启电子锁</string>
+    <string name="Print_density_btn">浓度设置</string>
+    <string name="Set_BlackMark_btn">黑标设置</string>
+    <string name="Uninit_BlackMark">不初始化黑标</string>
+    <string name="Init_BlackMark">初始化黑标</string>
+    <string name="Feed_dot_btn">进纸</string>
+    <string name="Feed_back_btn">退纸</string>
+    <string name="Half_cut_btn">半切</string>
+    <string name="Total_cut_btn">全切</string>
+    <string name="BlackMark_cut_btn">黑标切纸</string>
+    <string name="Density_input_hint">请输入浓度值,范围:70~200</string>
+    <string name="Feeddistance_input_hint">请输入走纸距离（mm）</string>
+    <string name="Set_Country">设置区域国家</string>
+    <string name="Set_CodePage">设置代码页</string>
+    <string name="PrintCharPaperBtn">字符页打印</string>
+    <string name="Bmp_path_et">显示Bmp图片路径</string>
+    <string name="Img_path_et">显示Img图片路径</string>
+    <string name="SelectBmpFile">选择Bmp</string>
+    <string name="SelectImgFile">选择Img</string>
+    <string name="PrintHorTable">水平制表</string>
+    <string name="Print1DBar">一维码</string>
+    <string name="PrintQrCode">二维码</string>
+    <string name="PrintPDF417">打印\nPDF417</string>
+    <string name="Download_bmp_prompt">下载位图成功，请給打印机重新上电！</string>
+    <string name="The_path_cannot_be_empty">图片路径不能为空!</string>
+
+    <string name="iFstype_1">1.打印头型号ID</string>
+    <string name="iFstype_2">2.硬件版本</string>
+    <string name="iFstype_3">3.固件版本</string>
+    <!-- <string name="iFstype_4">4.生产厂商信息</string> -->
+    <!-- <string name="iFstype_5">5.打印机型号</string> -->
+    <!-- <string name="iFstype_6">6.支持的中文编码格式</string> -->
+    <string name="iFstype_4">4.打印机型号</string>
+    <string name="iFstype_5">5.支持的中文编码格式</string>
+    <string name="iFstype_6">6.无</string>
+
+    <string name="Select_Print_Case">票样选择打印</string>
+    <string name="case1">排队小票</string>
+    <string name="case2">交易凭条</string>
+    <string name="case3">共享小票</string>
+    <string name="case4">电影票</string>
+    <string name="case5">样例5</string>
+    <string name="case6">样例6</string>
+
+    <string name="Title1_hint">标题1</string>
+    <string name="First_hint">第1列</string>
+    <string name="Title2_hint">标题2</string>
+    <string name="Second_hint">第2列</string>
+    <string name="Three_hint">第3列</string>
+    <string name="AD_Value">范围:32-128</string>
+
+    <string name="Effective_spinner">有效</string>
+    <string name="Invalid_spinner">无效</string>
+
+    <!-- <string name="Double_height_and_width">倍高倍宽模式</string>
+    <string name="print_1D_code">打印条形码</string>
+    <string name="print_2D_code">打印二维码</string>
+    <string name="Inverse_mode">反白模式</string>
+    <string name="Normal_mode">正常模式</string>
+    <string name="PrintInputContent">打印输入内容</string>
+    <string name="SetUnderLine">设定下划线</string>
+    <string name="Get_status">获取状态</string>
+    <string name="CutPaper">全&#160;&#160;&#160;&#160;切</string> -->
+
+    <string name="USB_Driver_Success">驱动成功</string>
+    <string name="USB_Driver_Failed">驱动失败</string>
+    <string name="PrintComplete">打印完成!</string>
+    <string name="PrintException">打印机异常，请重试!</string>
+
+    <!-- 打印输入内容提示-hint -->
+    <string name="smallticket_qrcode_hint">请输入小票QRCode内容！</string>
+    <string name="Print_code_content_hint">请输入二维码内容</string>
+    <string name="Print_code_content_et">Welcome</string>
+    <string name="Print_test_times_hint">二维码宽度（1-9）</string>
+    <string name="Qrcode_left_hint">左边距（0-27）</string>
+    <string name="Qrcode_size__hint">大小（1-8）</string>
+
+    <string name="Order_Number">Order Number</string>
+
+
+    <!-- 下载位图成功提示 -->
+    <string name="Download_bitmap_success">下载成功!</string>
+    <string name="Download_bitmap_failed">下载失败!</string>
+
+    <string name="interval_time_et">间隔（ms）:</string>
+    <string name="execution_times_et">执行次数:</string>
+    <string name="start_print_btn">开始打印</string>
+    <string name="input_interval_time_hint">输入间隔时间</string>
+    <string name="input_execution_times_hint">输入执行次数</string>
+    <string name="default_interval_time">3000</string>
+    <string name="default_execution_times">3</string>
+</resources>
